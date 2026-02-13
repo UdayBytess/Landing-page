@@ -1,9 +1,23 @@
-.footer {
-    font-size: 18px;
-    background-color: #1F2937;
-    font-family: 'Roboto';
-    color: white;
+body {
+    padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: center;
+}
+
+.one {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 32px;
 }
